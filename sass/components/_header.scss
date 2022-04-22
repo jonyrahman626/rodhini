@@ -1,0 +1,26 @@
+@import '../variables/variables';
+@import '../mixins/mixins';
+
+
+/* ==================================================================
+                        Header part start
+===================================================================*/ 
+#header{
+    padding: 10px 0;
+    margin-top: 15px;
+    border-top: 1px solid #f1f1f1;
+    .header_text{
+        @include fs($head, 20px, 600, $ff1);
+        line-height: 1;
+        a{
+            color: #333;
+            transition: all linear .3s;
+            &:hover{
+                color: $hover2;
+            }
+        }
+    }
+}
+/* ==================================================================
+                        Header part end
+===================================================================*/ 

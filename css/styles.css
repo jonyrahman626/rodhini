@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a,
+span {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/*==========================================================
+                    Common css end
+==========================================================*/
+/* ==================================================================
+                        Header part start
+===================================================================*/
+#header {
+  padding: 10px 0;
+  margin-top: 15px;
+  border-top: 1px solid #f1f1f1;
+}
+
+#header .header_text {
+  color: #F2640C;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+}
+
+#header .header_text a {
+  color: #333;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+#header .header_text a:hover {
+  color: #71D7F7;
+}
+
+/* ==================================================================
+                        Header part end
+===================================================================*/
+/* ==================================================================
+                        Logo part start
+===================================================================*/
+#logo {
+  background: #494B64;
+  padding: 10px 0;
+}
+
+#logo .tag_line {
+  color: #70E337;
+  font-size: 52px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  padding-left: 50px;
+  margin-top: -30px;
+}
+
+/* ==================================================================
+                        Logo part end
+===================================================================*/
+/* ==================================================================
+                        Menu part start
+===================================================================*/
+.main_menu {
+  background: #494B64;
+}
+
+/* ==================================================================
+                        Menu part end
+===================================================================*/
+/*# sourceMappingURL=styles.css.map */
