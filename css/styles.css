@@ -76,7 +76,7 @@ li {
   font-size: 52px;
   font-weight: 700;
   font-family: "Roboto", sans-serif;
-  padding-left: 50px;
+  padding-left: 75px;
   margin-top: -30px;
 }
 
@@ -125,5 +125,24 @@ li {
 
 /* ==================================================================
                         Menu part end
+===================================================================*/
+/* ==================================================================
+                        Breadcrumb part start
+===================================================================*/
+#breadcrumb {
+  padding: 34px 0;
+  background: #f5f5f5;
+}
+
+#breadcrumb .bread_head h1 {
+  color: #333;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.4em;
+}
+
+/* ==================================================================
+                        Breadcrumb part end
 ===================================================================*/
 /*# sourceMappingURL=styles.css.map */
