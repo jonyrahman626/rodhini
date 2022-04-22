@@ -90,6 +90,39 @@ li {
   background: #494B64;
 }
 
+.main_menu ul li a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  padding: 13px 20px;
+  line-height: 20px;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+  position: relative;
+  padding: 10px 36px !important;
+}
+
+.main_menu ul li a:after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #70E337;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+.main_menu ul li a:hover {
+  color: #70E337;
+}
+
+.main_menu ul li a:hover:after {
+  width: 100%;
+}
+
 /* ==================================================================
                         Menu part end
 ===================================================================*/

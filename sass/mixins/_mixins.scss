@@ -5,31 +5,31 @@
     font-family: $ff;
 }
 
-@mixin after_tl($l, $t, $w, $h, $bg) {
+@mixin after_tl($t, $l, $w, $h, $bg) {
     position: absolute;
     content: '';
-    left: $l;
     top: $t;
+    left: $l;
     width: $w;
     height: $h;
     background: $bg;
 }
 
-@mixin after_tr($r, $t, $w, $h, $bg) {
+@mixin after_tr($t, $r, $w, $h, $bg) {
     position: absolute;
     content: '';
+    top: $t;
     right: $l;
-    top: $t;
     width: $w;
     height: $h;
     background: $bg;
 }
 
-@mixin after_bl($l, $b, $w, $h, $bg) {
+@mixin after_bl($b, $l, $w, $h, $bg) {
     position: absolute;
     content: '';
-    left: $l;
     bottom: $b;
+    left: $l;
     width: $w;
     height: $h;
     background: $bg;
