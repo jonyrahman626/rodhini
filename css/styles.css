@@ -80,6 +80,10 @@ li {
   margin-top: -30px;
 }
 
+#logo a {
+  margin-left: 25px;
+}
+
 /* ==================================================================
                         Logo part end
 ===================================================================*/
@@ -144,5 +148,116 @@ li {
 
 /* ==================================================================
                         Breadcrumb part end
+===================================================================*/
+/* ==================================================================
+                        Home Details part start
+===================================================================*/
+#home_details .litening_text h3 {
+  color: #F2640C;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  line-height: 1;
+  padding-top: 8px;
+  padding-bottom: 20px;
+}
+
+#home_details .litening_text p {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+}
+
+#home_details .litening_text p span {
+  padding-top: 20px;
+  display: block;
+}
+
+#home_details .litening_text ul {
+  list-style: disc;
+  margin-left: 15px;
+  padding: 20px 0;
+}
+
+#home_details .litening_text ul li {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+}
+
+#home_details .aniversary_text h2,
+#home_details .service_area h2 {
+  color: #F2640C;
+  font-size: 47px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  line-height: 1;
+  padding: 30px 0;
+}
+
+#home_details .aniversary_text p,
+#home_details .service_area p {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#home_details .aniversary_text p span,
+#home_details .service_area p span {
+  padding-top: 20px;
+  display: block;
+}
+
+#home_details .aniversary_text p span a,
+#home_details .service_area p span a {
+  text-decoration: underline;
+}
+
+#home_details .customer_alert {
+  background: #494B64;
+  text-align: center;
+  margin: 35px 0;
+}
+
+#home_details .customer_alert p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.8;
+}
+
+#home_details .customer_alert p:first-child {
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+
+#home_details .service_area p {
+  font-size: 23px;
+  line-height: 1.8;
+  text-align: left;
+}
+
+#home_details .take_change h2 {
+  color: #F2640C;
+  font-size: 47px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  line-height: 1;
+  padding: 30px 0 22px;
+}
+
+/* ==================================================================
+                        Home Details part end
 ===================================================================*/
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,102 @@
+@import '../variables/variables';
+@import '../mixins/mixins';
+
+
+/* ==================================================================
+                        Home Details part start
+===================================================================*/
+#home_details {
+    .litening_text {
+        h3 {
+            @include fs($head, 30px, 600, $ff1);
+            text-align: center;
+            line-height: 1;
+            padding-top: 8px;
+            padding-bottom: 20px;
+        }
+
+        p {
+            @include fs(#000, 20px, 600, $ff2);
+            line-height: 1.5;
+
+            span {
+                padding-top: 20px;
+                display: block;
+            }
+        }
+
+        ul {
+            list-style: disc;
+            margin-left: 15px;
+            padding: 20px 0;
+
+            li {
+                @include fs(#000, 20px, 600, $ff2);
+                line-height: 1.5;
+            }
+        }
+    }
+
+    .aniversary_text,
+    .service_area {
+        h2 {
+            @include fs($head, 47px, 600, $ff1);
+            text-align: center;
+            line-height: 1;
+            padding: 30px 0;
+        }
+
+        p {
+            @include fs(#000, 20px, 600, $ff2);
+            line-height: 1.5;
+            text-align: center;
+
+            span {
+                padding-top: 20px;
+                display: block;
+
+                a {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .customer_alert {
+        background: #494B64;
+        text-align: center;
+        margin: 35px 0;
+
+        p {
+            @include fs(#fff, 20px, 400, $ff2);
+            line-height: 1.8;
+
+            &:first-child {
+                padding-bottom: 20px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .service_area {
+        p {
+            font-size: 23px;
+            line-height: 1.8;
+            text-align: left;
+        }
+    }
+
+    .take_change {
+        h2 {
+            @include fs($head, 47px, 400, $ff1);
+            text-align: center;
+            line-height: 1;
+            padding: 30px 0 22px;
+        }
+
+    }
+}
+
+/* ==================================================================
+                        Home Details part end
+===================================================================*/
