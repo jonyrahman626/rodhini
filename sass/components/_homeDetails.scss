@@ -95,8 +95,52 @@
         }
 
     }
+
+    .con_btn {
+        text-align: center;
+
+        a {
+            @include fs(#fff, 25px, 500, $ff2);
+            padding: 5px 20px;
+            background: #24C83B;
+            border-radius: 5px;
+            text-transform: uppercase;
+            margin: 20px 0;
+            transition: all linear .3s;
+
+            &:hover {
+                background: $hover2;
+            }
+        }
+    }
+
+    .social_icon {
+        text-align: center;
+        padding-top: 24px;
+
+        a {
+            width: 40px;
+
+            img {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+    }
+
+    .home_right {
+        a {
+            width: 40px;
+            margin: 20px 0;
+
+            img {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+    }
 }
 
 /* ==================================================================
                         Home Details part end
-===================================================================*/
+                        ===================================================================*/
