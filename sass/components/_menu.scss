@@ -16,7 +16,7 @@
                 line-height: 20px;
                 transition: all linear .3s;
                 position: relative;
-                padding: 10px 36px !important;
+                padding: 10px 29px !important;
 
                 &:after {
                     @include after_bl(0, 0, 0, 3px, $hover);

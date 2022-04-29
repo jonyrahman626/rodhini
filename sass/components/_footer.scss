@@ -1,0 +1,36 @@
+@import '../variables/variables';
+@import '../mixins/mixins';
+
+
+/* ==================================================================
+                        Header part start
+===================================================================*/
+#footer {
+    .foot_top {
+        background-color: #222;
+        padding: 30px 0;
+    }
+
+    .copy_right {
+        background-color: #1B1B1B;
+        padding: 15px 0;
+        line-height: 1;
+
+        p {
+            @include fs(#fff, 12px, 400, $ff2);
+            text-align: center;
+
+            a {
+                color: $hover;
+                transition: all linear .3s;
+                &:hover {
+                    color: $hover2;
+                }
+            }
+        }
+    }
+}
+
+/* ==================================================================
+                        Header part end
+===================================================================*/
