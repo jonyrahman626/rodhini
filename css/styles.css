@@ -341,4 +341,155 @@ li {
 /* ==================================================================
                         Header part end
 ===================================================================*/
+.light_project_left h1 {
+  color: #F2640C;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding-bottom: 35px;
+  padding-top: 5px;
+}
+
+.light_project_left .light_project_slider .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.light_project_left .light_project_slider .slick-dots li button {
+  font-size: 0;
+  width: 6px;
+  height: 6px;
+  border: 0;
+  background: #ddd;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.light_project_left .light_project_slider .slick-dots li.slick-active button {
+  background: #000;
+}
+
+.light_project_left > p {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  padding: 30px 0 35px;
+}
+
+.light_project_left .mono_head h3 {
+  color: #D92222;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.light_project_left .mono_head .mono_box {
+  background: #d5d4d4;
+}
+
+.light_project_left .mono_head .mono_box h4 {
+  text-align: center;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  padding: 10px 0 20px;
+}
+
+.light_project_left .mono_head .mono_box ul {
+  list-style: disc;
+  margin-left: 20px;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.light_project_left .mono_head .mono_box p {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.light_project_left .mono_head .mono_box p span {
+  display: block;
+  padding-top: 20px;
+}
+
+.light_project_left .project_btm_text {
+  padding-top: 40px;
+}
+
+.light_project_left .project_btm_text h4 {
+  color: #D92222;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+.light_project_left .project_btm_text h5 {
+  color: #D92222;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+.light_project_left .project_btm_text p {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 2;
+  padding: 20px 0;
+}
+
+.light_project_left .project_btm_text ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.light_project_left .project_btm_text ul li {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 2;
+}
+
+.projecr_social_con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 40px 0 20px;
+}
+
+.projecr_social_con a {
+  width: 40px;
+  margin-right: 5px;
+}
+
+.projecr_social_con a img {
+  width: 100%;
+}
+
+.slick-initialized .slick-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,125 @@
+@import '../variables/variables';
+@import '../mixins/mixins';
+
+.light_project_left {
+    h1 {
+        @include fs($head, 35px, 600, $ff1);
+        text-align: center;
+        padding-bottom: 35px;
+        padding-top: 5px;
+    }
+
+    .light_project_slider {
+        .slick-dots {
+            display: flex;
+            justify-content: center;
+
+            li {
+                button {
+                    font-size: 0;
+                    width: 6px;
+                    height: 6px;
+                    border: 0;
+                    background: #ddd;
+                    border-radius: 50%;
+                    margin: 0 5px;
+                }
+
+                &.slick-active {
+                    button {
+                        background: #000;
+                    }
+                }
+            }
+        }
+    }
+
+    >p {
+        @include fs(#000, 14px, 400, $ff2);
+        text-align: center;
+        padding: 30px 0 35px;
+    }
+
+    .mono_head {
+        h3 {
+            @include fs(#D92222, 20px, 600, $ff1);
+            text-align: center;
+            padding-bottom: 15px;
+        }
+
+        .mono_box {
+            background: #d5d4d4;
+
+            h4 {
+                text-align: center;
+                @include fs(#000, 20px, 600, $ff1);
+                padding: 10px 0 20px;
+            }
+
+            ul {
+                list-style: disc;
+                margin-left: 20px;
+                @include fs(#000, 20px, 400, $ff1);
+            }
+
+            p {
+                @include fs(#000, 20px, 400, $ff1);
+                text-align: center;
+                padding-top: 20px;
+
+                span {
+                    display: block;
+                    padding-top: 20px;
+                }
+            }
+        }
+    }
+
+    .project_btm_text {
+        padding-top: 40px;
+
+        h4 {
+            @include fs(#D92222, 22px, 600, $ff1);
+        }
+        h5 {
+            @include fs(#D92222, 20px, 600, $ff1);
+        }
+        
+        p {
+            @include fs(#000, 20px, 400, $ff1);
+            line-height: 2;
+            padding: 20px 0;
+        }
+
+        ul {
+            padding-left: 20px;
+            list-style: disc;
+            li {
+                @include fs(#000, 20px, 400, $ff1);
+                line-height: 2;
+            }
+        }
+    }
+
+
+}
+
+.projecr_social_con {
+    display: flex;
+    margin: 40px 0 20px;
+
+    a {
+        width: 40px;
+        margin-right: 5px;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+.slick-initialized .slick-slide {
+    display: flex;
+    justify-content: center;
+}

@@ -6,8 +6,10 @@ $(function () {
     $('.light_project_slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
+        arrows: false,
+        dots: true,
     });
 
 
