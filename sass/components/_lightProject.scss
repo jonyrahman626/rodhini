@@ -81,15 +81,17 @@
         h4 {
             @include fs(#D92222, 22px, 600, $ff1);
         }
+
         h5 {
             @include fs(#D92222, 20px, 600, $ff1);
         }
-        
+
         p {
             @include fs(#000, 20px, 400, $ff1);
             line-height: 2;
             padding: 20px 0;
-            span{
+
+            span {
                 font-weight: 600;
             }
         }
@@ -97,18 +99,94 @@
         ul {
             padding-left: 20px;
             list-style: disc;
+
             li {
                 @include fs(#000, 20px, 400, $ff1);
                 line-height: 2;
             }
         }
-        img{
+
+        img {
             margin: 0 auto;
             display: block;
         }
     }
 
+    .project_formula {
+        h3 {
+            @include fs(#D92222, 30px, 600, $ff1);
+        }
 
+        p {
+            @include fs(#000, 20px, 400, $ff1);
+            line-height: 2;
+            padding: 10px 0;
+
+            span {
+                font-weight: 600;
+            }
+        }
+
+        h4 {
+            @include fs(#333, 18px, 600, $ff1);
+            padding: 20px 0;
+        }
+
+        ul {
+            li {
+                @include fs(#000, 20px, 400, $ff1);
+                line-height: 2;
+            }
+        }
+
+        h5 {
+            @include fs(#ff0000, 17px, 600, $ff1);
+            line-height: 2;
+            padding: 20px 0;
+        }
+    }
+
+    .project_lps {
+        h3 {
+            @include fs(#D92222, 30px, 600, $ff1);
+        }
+
+        p {
+            @include fs(#000, 20px, 400, $ff1);
+            line-height: 2;
+            padding: 10px 0;
+        }
+
+        ol {
+            list-style: number;
+            margin-left: 20px;
+
+            li {
+                @include fs(#000, 20px, 400, $ff1);
+                line-height: 2;
+
+                b {
+                    color: #ff0000;
+                    font-weight: 600;
+                }
+
+                ol {
+                    li {
+                        list-style: none;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+.con_btn {
+    h2 {
+        @include fs(#EA0404, 45px, 400, $ff1);
+        padding: 20px 0 40px;
+    }
 }
 
 .projecr_social_con {
@@ -129,4 +207,12 @@
 .slick-initialized .slick-slide {
     display: flex;
     justify-content: center;
+}
+
+.elect_page {
+    padding-top: 0 !important;
+
+    p {
+        padding-top: 0 !important;
+    }
 }

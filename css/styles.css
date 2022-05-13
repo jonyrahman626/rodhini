@@ -477,6 +477,97 @@ li {
   display: block;
 }
 
+.light_project_left .project_formula h3 {
+  color: #D92222;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+.light_project_left .project_formula p {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 2;
+  padding: 10px 0;
+}
+
+.light_project_left .project_formula p span {
+  font-weight: 600;
+}
+
+.light_project_left .project_formula h4 {
+  color: #333;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  padding: 20px 0;
+}
+
+.light_project_left .project_formula ul li {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 2;
+}
+
+.light_project_left .project_formula h5 {
+  color: #ff0000;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  line-height: 2;
+  padding: 20px 0;
+}
+
+.light_project_left .project_lps h3 {
+  color: #D92222;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+.light_project_left .project_lps p {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 2;
+  padding: 10px 0;
+}
+
+.light_project_left .project_lps ol {
+  list-style: number;
+  margin-left: 20px;
+}
+
+.light_project_left .project_lps ol li {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 2;
+}
+
+.light_project_left .project_lps ol li b {
+  color: #ff0000;
+  font-weight: 600;
+}
+
+.light_project_left .project_lps ol li ol li {
+  list-style: none;
+}
+
+.con_btn h2 {
+  color: #EA0404;
+  font-size: 45px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  padding: 20px 0 40px;
+}
+
 .projecr_social_con {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -500,5 +591,13 @@ li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.elect_page {
+  padding-top: 0 !important;
+}
+
+.elect_page p {
+  padding-top: 0 !important;
 }
 /*# sourceMappingURL=styles.css.map */
