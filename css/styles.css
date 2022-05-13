@@ -455,6 +455,10 @@ li {
   padding: 20px 0;
 }
 
+.light_project_left .project_btm_text p span {
+  font-weight: 600;
+}
+
 .light_project_left .project_btm_text ul {
   padding-left: 20px;
   list-style: disc;
@@ -466,6 +470,11 @@ li {
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   line-height: 2;
+}
+
+.light_project_left .project_btm_text img {
+  margin: 0 auto;
+  display: block;
 }
 
 .projecr_social_con {

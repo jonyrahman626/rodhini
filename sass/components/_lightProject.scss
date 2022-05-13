@@ -89,6 +89,9 @@
             @include fs(#000, 20px, 400, $ff1);
             line-height: 2;
             padding: 20px 0;
+            span{
+                font-weight: 600;
+            }
         }
 
         ul {
@@ -98,6 +101,10 @@
                 @include fs(#000, 20px, 400, $ff1);
                 line-height: 2;
             }
+        }
+        img{
+            margin: 0 auto;
+            display: block;
         }
     }
 
