@@ -1,0 +1,110 @@
+@import '../variables/variables';
+@import '../mixins/mixins';
+
+
+/* ==================================================================
+                        Conatct page start
+===================================================================*/
+#contact {
+    padding-bottom: 145px;
+    .contact_text {
+        h1 {
+            @include fs(#23A455, 42px, 600, $ff1);
+            padding: 20px 0;
+        }
+
+        a {
+            @include fs(#fff, 32px, 500, $ff1);
+            background: #23A455;
+            padding: 10px 20px;
+            border-radius: 10px;
+            line-height: 1;
+            margin: 30px 0 100px;
+
+            svg {
+                width: 32px;
+                fill: #fff;
+                margin-top: -6px;
+            }
+        }
+    }
+
+    .location,
+    .our_hour,
+    .contact_us,
+    .follow_us {
+        h3 {
+            @include fs(#000, 18px, 600, $ff1);
+            text-transform: uppercase;
+            padding-bottom: 15px;
+        }
+    }
+
+    .location {
+        padding-bottom: 107px;
+
+        p {
+            @include fs(#000, 14px, 400, $ff1);
+        }
+
+        h4 {
+            @include fs(#000, 18px, 400, $ff1);
+        }
+    }
+
+    .our_hour {
+        p {
+            @include fs(#000, 20px, 400, $ff1);
+            padding-bottom: 20px;
+        }
+
+        h4 {
+            @include fs(#000, 18px, 400, $ff1);
+        }
+    }
+
+    .contact_us {
+        p {
+            @include fs(#000, 18px, 600, $ff2);
+
+            a {
+                display: inline-block;
+                font-size: 16px;
+            }
+
+            &:nth-child(5) {
+                font-size: 16px;
+                margin-top: 20px;
+            }
+        }
+
+        a {
+            @include fs(#000, 18px, 600, $ff2);
+            display: block;
+            transition: all linear .3s;
+
+            &:hover {
+                color: #13aff0;
+            }
+        }
+
+    }
+
+    .follow_us{
+        padding-top: 67px;
+        .social_icon{
+            display: flex;
+            a{
+                width: 40px;
+                margin-right: 5px;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+/* ==================================================================
+                        Conatct page end
+===================================================================*/

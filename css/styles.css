@@ -307,7 +307,7 @@ li {
                         Home Details part end
 ===================================================================*/
 /* ==================================================================
-                        Header part start
+                        Footer part start
 ===================================================================*/
 #footer .foot_top {
   background-color: #222;
@@ -339,7 +339,7 @@ li {
 }
 
 /* ==================================================================
-                        Header part end
+                        Footer part end
 ===================================================================*/
 .light_project_left h1 {
   color: #F2640C;
@@ -600,4 +600,136 @@ li {
 .elect_page p {
   padding-top: 0 !important;
 }
+
+/* ==================================================================
+                        Conatct page start
+===================================================================*/
+#contact {
+  padding-bottom: 145px;
+}
+
+#contact .contact_text h1 {
+  color: #23A455;
+  font-size: 42px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  padding: 20px 0;
+}
+
+#contact .contact_text a {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  background: #23A455;
+  padding: 10px 20px;
+  border-radius: 10px;
+  line-height: 1;
+  margin: 30px 0 100px;
+}
+
+#contact .contact_text a svg {
+  width: 32px;
+  fill: #fff;
+  margin-top: -6px;
+}
+
+#contact .location h3,
+#contact .our_hour h3,
+#contact .contact_us h3,
+#contact .follow_us h3 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+
+#contact .location {
+  padding-bottom: 107px;
+}
+
+#contact .location p {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+#contact .location h4 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+#contact .our_hour p {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 20px;
+}
+
+#contact .our_hour h4 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+#contact .contact_us p {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+#contact .contact_us p a {
+  display: inline-block;
+  font-size: 16px;
+}
+
+#contact .contact_us p:nth-child(5) {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+#contact .contact_us a {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+#contact .contact_us a:hover {
+  color: #13aff0;
+}
+
+#contact .follow_us {
+  padding-top: 67px;
+}
+
+#contact .follow_us .social_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#contact .follow_us .social_icon a {
+  width: 40px;
+  margin-right: 5px;
+}
+
+#contact .follow_us .social_icon a img {
+  width: 100%;
+}
+
+/* ==================================================================
+                        Conatct page end
+===================================================================*/
 /*# sourceMappingURL=styles.css.map */
