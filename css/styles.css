@@ -733,6 +733,59 @@ li {
                         Conatct page end
 ===================================================================*/
 /* ==================================================================
+                        Q&A page start
+===================================================================*/
+#quest_and_ans {
+  padding: 10px 0;
+}
+
+#quest_and_ans .quest_and_ans_text button {
+  color: #D92222;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  padding-left: 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+#quest_and_ans .quest_and_ans_text button:focus {
+  -webkit-box-shadow: 0 0 0 0 transparent !important;
+          box-shadow: 0 0 0 0 transparent !important;
+}
+
+#quest_and_ans .quest_and_ans_text .accordion-button:not(.collapsed) {
+  color: #D92222;
+  background-color: #fff;
+  -webkit-box-shadow: inset 0 0 0 transparent;
+          box-shadow: inset 0 0 0 transparent;
+}
+
+#quest_and_ans .quest_and_ans_text p {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+}
+
+#quest_and_ans .quest_and_ans_text p span {
+  display: block;
+  padding-top: 20px;
+}
+
+#quest_and_ans .quest_and_ans_text ul li {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+}
+
+/* ==================================================================
+                        Q&A page end
+===================================================================*/
+/* ==================================================================
                         Franchises page start
 ===================================================================*/
 #franchises .franchises_text p {
