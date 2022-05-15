@@ -14,6 +14,17 @@
             line-height: 1;
             padding-left: 40px;
             border-bottom: 1px solid #ddd;
+            position: relative;
+            &:after{
+                @include after_tl(50%, 10px, 13px, 3px, #D92222);
+                transform: translateY(-50%);
+            }
+            &.collapsed{
+                &:before{
+                    @include after_tl(50%, 15px, 3px, 13px, #D92222);
+                    transform: translateY(-50%);
+                }   
+            }
 
             &:focus {
                 box-shadow: 0 0 0 0 transparent !important;

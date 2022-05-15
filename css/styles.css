@@ -747,6 +747,31 @@ li {
   line-height: 1;
   padding-left: 40px;
   border-bottom: 1px solid #ddd;
+  position: relative;
+}
+
+#quest_and_ans .quest_and_ans_text button:after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 10px;
+  width: 13px;
+  height: 3px;
+  background: #D92222;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#quest_and_ans .quest_and_ans_text button.collapsed:before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 15px;
+  width: 3px;
+  height: 13px;
+  background: #D92222;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 #quest_and_ans .quest_and_ans_text button:focus {
