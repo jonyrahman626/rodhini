@@ -732,4 +732,37 @@ li {
 /* ==================================================================
                         Conatct page end
 ===================================================================*/
+/* ==================================================================
+                        Franchises page start
+===================================================================*/
+#franchises .franchises_text p {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  padding: 10px 0 20px;
+}
+
+#franchises .franchises_text .con_btn {
+  text-align: center;
+}
+
+#franchises .franchises_text .con_btn a {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  padding: 5px 20px;
+  background: #24C83B;
+  border-radius: 5px;
+  text-transform: uppercase;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+/* ==================================================================
+                        Franchises page end
+===================================================================*/
 /*# sourceMappingURL=styles.css.map */
