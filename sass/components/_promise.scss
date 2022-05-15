@@ -7,6 +7,18 @@
 ===================================================================*/
 #our_promise {
     .promise_img {
+        position: relative;
+        .overly{
+            width: 41%;
+            margin-left: auto;
+            padding-bottom: 20px;
+            ul{
+                li{
+                    @include fs(#7A7A7A, 14px, 400, $ff1);
+                    line-height: 1.8;
+                }
+            }
+        }
         img {
             display: block;
             margin: -30px auto 15px;
@@ -21,6 +33,34 @@
                 text-decoration: underline;
                 color: #0000ff;
             }
+        }
+    }
+
+    .promis_lower {
+        h4 {
+            @include fs(#333, 20px, 600, $ff1);
+            line-height: 1.4;
+            padding-bottom: 15px;
+        }
+
+        p {
+            @include fs(#000, 20px, 400, $ff1);
+            line-height: 1.8;
+            padding-bottom: 20px;
+        }
+    }
+
+    .con_btn {
+        text-align: center;
+        a {
+            @include fs(#fff, 25px, 500, $ff1);
+            padding: 5px 20px;
+            background: #24C83B;
+            border-radius: 5px;
+            text-transform: uppercase;
+            transition: all linear .3s;
+            margin-bottom: 15px;
+            margin-top: 15px;
         }
     }
 }
