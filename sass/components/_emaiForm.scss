@@ -1,0 +1,49 @@
+@import '../variables/variables';
+@import '../mixins/mixins';
+
+
+/* ==================================================================
+                        Email Form page start
+===================================================================*/
+#email_form {
+    padding: 50px 0;
+
+    .form_inner {
+        h1 {
+            @include fs(#23A455, 29px, 600, $ff1);
+            padding-bottom: 30px;
+        }
+
+        .form-floating {
+            input {
+                border: 0;
+                border-bottom: 1px solid #ddd;
+                border-radius: 0;
+                padding: 0;
+
+
+                &:focus {
+                    box-shadow: 0 0 0 0 transparent;
+                }
+            }
+
+            label {
+                padding: .75rem 0;
+                @include fs(#888888, 18px, 400, $ff1);
+            }
+        }
+    }
+}
+
+.form-floating>.form-control:focus~label,
+.form-floating>.form-control:not(:placeholder-shown)~label,
+.form-floating>.form-select~label {
+    transform: scale(.85) translateY(-1rem) translateX(.15rem);
+    color: #E04562 !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+}
+
+/* ==================================================================
+                        Email Form page end
+===================================================================*/
