@@ -222,6 +222,11 @@ li {
   text-decoration: underline;
 }
 
+#home_details .aniversary_text p a,
+#home_details .service_area p a {
+  text-decoration: underline !important;
+}
+
 #home_details .customer_alert {
   background: #494B64;
   text-align: center;
@@ -601,6 +606,26 @@ li {
   padding-top: 0 !important;
 }
 
+.prev_arr,
+.nxt_arr {
+  width: 12px;
+  cursor: pointer;
+  fill: #ddd;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 99;
+}
+
+.prev_arr {
+  left: 0;
+}
+
+.nxt_arr {
+  right: 0;
+}
+
 /* ==================================================================
                         Conatct page start
 ===================================================================*/
@@ -772,6 +797,7 @@ li {
   width: 100%;
   height: 150px;
   resize: none;
+  border-radius: 0;
 }
 
 #email_form .form_inner .form-floating textarea:focus {
@@ -782,6 +808,11 @@ li {
 #email_form .form_inner .form-floating .abc {
   top: 10px !important;
   left: 15px !important;
+}
+
+#email_form .form_inner .form-floating p {
+  font-size: 12px;
+  padding-top: 5px;
 }
 
 #email_form .form_inner .form-select {
@@ -801,9 +832,20 @@ li {
   font-size: 14px;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
-  padding: 10px 20px;
+  padding: 10px 25px;
   background: #17A8E3;
   border: 0;
+  margin-top: 25px;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+#email_form .form_inner button:hover {
+  background: #008FCA;
+}
+
+#email_form .form_inner .g-recaptcha {
+  margin-top: 35px;
 }
 
 .form-floating > .form-control:focus ~ label,

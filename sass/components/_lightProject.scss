@@ -216,3 +216,21 @@
         padding-top: 0 !important;
     }
 }
+
+.prev_arr,
+.nxt_arr{
+    width: 12px;
+    cursor: pointer;
+    fill: #ddd;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99;
+}
+
+.prev_arr{
+    left: 0;
+}
+.nxt_arr{
+    right: 0;
+}
