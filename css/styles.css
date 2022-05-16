@@ -127,6 +127,14 @@ li {
   width: 100%;
 }
 
+.main_menu ul li a.active {
+  color: #70E337;
+}
+
+.main_menu ul li a.active:after {
+  width: 100%;
+}
+
 /* ==================================================================
                         Menu part end
 ===================================================================*/
@@ -624,6 +632,29 @@ li {
 
 .nxt_arr {
   right: 0;
+}
+
+.brea_text ol li {
+  color: #333;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.brea_text ol li a {
+  color: #333;
+}
+
+.brea_text ol li.active {
+  color: #c6c6c6;
+}
+
+.brea_text ol li.active:before {
+  content: var(--bs-breadcrumb-divider, ">>");
+}
+
+.Suge_pro h1 {
+  color: #000;
 }
 
 /* ==================================================================

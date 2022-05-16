@@ -234,3 +234,26 @@
 .nxt_arr{
     right: 0;
 }
+
+.brea_text{
+    ol{
+        li{
+            @include fs(#333, 12px, 400, $ff1);
+            a{
+                color: #333;
+            }
+            &.active{
+                color: #c6c6c6;
+                &:before {
+                    content: var(--bs-breadcrumb-divider, ">>");
+                }
+            }
+        }
+    }
+}
+
+.Suge_pro{
+    h1{
+        color: #000;
+    }
+}

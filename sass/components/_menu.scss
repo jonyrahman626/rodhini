@@ -30,6 +30,14 @@
                         width: 100%;
                     }
                 }
+
+                &.active {
+                    color: $hover;
+
+                    &:after {
+                        width: 100%;
+                    }
+                }
             }
         }
     }
