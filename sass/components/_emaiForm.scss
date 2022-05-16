@@ -25,12 +25,47 @@
                 &:focus {
                     box-shadow: 0 0 0 0 transparent;
                 }
+
+                margin-bottom: 50px;
             }
 
             label {
                 padding: .75rem 0;
                 @include fs(#888888, 18px, 400, $ff1);
             }
+
+            textarea {
+                width: 100%;
+                height: 150px;
+                resize: none;
+
+                &:focus{
+                    box-shadow: 0 0 0 0 transparent;
+                }
+            }
+
+            .abc {
+                top: 10px !important;
+                left: 15px !important;
+            }
+        }
+
+        .form-select {
+            border: 0;
+            border-bottom: 1px solid #ddd;
+            padding: 15px 0;
+            margin-bottom: 30px;
+
+            &:focus {
+                box-shadow: 0 0 0 0 transparent;
+            }
+        }
+
+        button{
+            @include fs(#fff, 14px, 500, $ff1);
+            padding: 10px 20px;
+            background: #17A8E3;
+            border: 0;
         }
     }
 }
