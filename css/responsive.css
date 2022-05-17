@@ -48,6 +48,19 @@
                     Home page start
     ==============================================*/
 
+    /* ===================================================
+                    Light Project page start 
+    ====================================================*/
+    .brea_text .breadcrumb {
+        justify-content: flex-start !important;
+        padding-top: 5px;
+    }
+
+    /* ===================================================
+                    Light Project page end 
+    ====================================================*/
+
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -97,6 +110,7 @@
         top: 55px;
         background: #fff;
         width: 100%;
+        z-index: 999;
     }
 
     .main_menu ul li a {
@@ -142,6 +156,27 @@
     /* ===================================================
                         Home page end 
     ====================================================*/
+
+    /* ===================================================
+                    Light Project page start 
+    ====================================================*/
+    .brea_text .breadcrumb {
+        justify-content: flex-start !important;
+        padding-top: 5px;
+    }
+
+    .con_btn h2 {
+        font-size: 35px;
+    }
+
+    /* ===================================================
+                    Light Project page end 
+    ====================================================*/
+
+    .project_btm_text img{
+        width: 100%;
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -191,6 +226,7 @@
         top: 55px;
         background: #fff;
         width: 100%;
+        z-index: 999;
     }
 
     .main_menu ul li a {
@@ -236,4 +272,25 @@
     /* ===================================================
                         Home page end 
     ====================================================*/
+
+    /* ===================================================
+                    Light Project page start 
+    ====================================================*/
+    .brea_text .breadcrumb {
+        justify-content: flex-start !important;
+        padding-top: 5px;
+    }
+
+    .con_btn h2 {
+        font-size: 35px;
+    }
+
+    /* ===================================================
+                    Light Project page end 
+    ====================================================*/
+
+    .project_btm_text img{
+        width: 100%;
+        max-width: 100%;
+    }
 }

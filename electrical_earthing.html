@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -38,13 +39,13 @@
     <section id="logo">
         <div class="container px-lg-0">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-6">
                     <div class="logo">
                         <a href="#"><img src="images/logo.png" alt=""></a>
                         <h2 class="tag_line">Safety</h2>
                     </div>
                 </div>
-                <div class="col-lg-6 text-end align-self-center">
+                <div class="col-lg-6 col-6 text-end align-self-center">
                     <div class="logo_right">
                         <img src="images/Bussiness_name_inverted-removebg-preview.webp" alt="">
                     </div>
@@ -59,12 +60,15 @@
     <!-- ===============================================================
                             Menu part start
     =================================================================-->
-    <nav class="navbar navbar-expand-lg main_menu p-0">
+    <nav class="navbar navbar-expand-md main_menu p-0">
         <div class="container px-lg-0">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                        d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z" />
+                </svg>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -134,7 +138,7 @@
     <section id="home_details">
         <div class="container px-lg-0">
             <div class="row">
-                <div class="col-lg-9 m-auto">
+                <div class="col-lg-9 col-md-10 m-auto">
                     <!-- Detail left start -->
                     <div class="light_project_left">
                         <h1>Electrical Earthing</h1>
@@ -143,27 +147,61 @@
                                 Without it a lightning arrester is not only not effective but also dangerous. With it,
                                 electronic equipments inside the building can be completely protected by installing also
                                 surge protective devices.</p>
-                                <img src="images/download.jpg" alt="">
+                            <img src="images/download.jpg" alt="">
                         </div>
                         <div class="project_btm_text">
                             <h4>What is Electrical Earthing?</h4>
-                            <p>Electrical Earthing is the means by which an abnormal discharge of electrical energy is routed to earth. It is done with a conducting connection to an electrode system buried in the earth. The efficiency of the discharge is higher the lower the impedance of the earthing system comprising the connection and the system in the ground. Hence the need for low-resistance earthing.</p>
-                            <p>Earthing serves two purposes: Safety and function. The former relates to the safe discharge of short circuit currents and other fault currents  thereby preventing shocks and equipment damage. The latter relates to the earthing being necessary for the functioning of a system; for example surge protection devices need  low-resistance earthing for long life.</p>
+                            <p>Electrical Earthing is the means by which an abnormal discharge of electrical energy is
+                                routed to earth. It is done with a conducting connection to an electrode system buried
+                                in the earth. The efficiency of the discharge is higher the lower the impedance of the
+                                earthing system comprising the connection and the system in the ground. Hence the need
+                                for low-resistance earthing.</p>
+                            <p>Earthing serves two purposes: Safety and function. The former relates to the safe
+                                discharge of short circuit currents and other fault currents thereby preventing shocks
+                                and equipment damage. The latter relates to the earthing being necessary for the
+                                functioning of a system; for example surge protection devices need low-resistance
+                                earthing for long life.</p>
                         </div>
                         <div class="project_btm_text">
                             <h4>What is the recommended resistance value of earthing?</h4>
-                            <p><b>IEC 62305 recommends a value below 10 ohms, measured at low frequency. This is not enforced by the national codes. The general practice for homes is that if the resistance of the earthing is found to be over 25 ohms, then additional earthing is placed to reduce the value to below 25 ohms. </b></p>
+                            <p><b>IEC 62305 recommends a value below 10 ohms, measured at low frequency. This is not
+                                    enforced by the national codes. The general practice for homes is that if the
+                                    resistance of the earthing is found to be over 25 ohms, then additional earthing is
+                                    placed to reduce the value to below 25 ohms. </b></p>
                         </div>
                         <div class="project_btm_text">
                             <h4>Why earthing in most homes does not have low resistance value? </h4>
-                            <p>Low-resistance earthing  is one of important factors in the safety of a building and its equipments and occupants.Three things prevent buildings, especially homes, in Kerala from having proper earthing.</p>
+                            <p>Low-resistance earthing is one of important factors in the safety of a building and its
+                                equipments and occupants.Three things prevent buildings, especially homes, in Kerala
+                                from having proper earthing.</p>
                             <ul>
-                                <li>Electrical contractors in Kerala generally do not own the necessary testing equipments that can test the electrode-earth resistance. The reason being that good quality meggers cost upwards of one lakh rupees.</li>
-                                <li>Building owners, wanting to save money, opt for cheap earthing. It connects a single thin wire to a single GI pipe buried either in a charcoal/soil pit or a chemical mixture. These may give low values initially with water poured!</li>
-                                <li>Electrical contractors usually specialize in the building wiring and not in low-resistance earthing. Low-resistance earthing needs to be designed for each building or structure by first measuring the resistivity of the soil. The value can vary from place to place and from season to season.  After the value of resistivity is obtained then the earthing can be designed based on the resistivity value. And  before signing off the completion of the  work, the resistance of the installed system should be measured and recorded in the completion report given to the owner.</li>
-                                <li>Electrode-to-earth resistance must be tested every 11 months. The reason is that the frequency and intensity of rains depend on the month. Testing every 11 months ensures that the testing in the year following is in the earlier month. Thus 12 test visits would give the resistance value in the various months. A low value is attended to by either installing expanded earthing or increasing moisture of earth below the bottom tip of the electrode to a depth of one-half the length of the electrode. Doing both corrections would be needed in dry or loose soils. An example of a loose soil is sandy soil. An example of a dry soil is soil of only a few feet in depth sitting on rock.</li>
+                                <li>Electrical contractors in Kerala generally do not own the necessary testing
+                                    equipments that can test the electrode-earth resistance. The reason being that good
+                                    quality meggers cost upwards of one lakh rupees.</li>
+                                <li>Building owners, wanting to save money, opt for cheap earthing. It connects a single
+                                    thin wire to a single GI pipe buried either in a charcoal/soil pit or a chemical
+                                    mixture. These may give low values initially with water poured!</li>
+                                <li>Electrical contractors usually specialize in the building wiring and not in
+                                    low-resistance earthing. Low-resistance earthing needs to be designed for each
+                                    building or structure by first measuring the resistivity of the soil. The value can
+                                    vary from place to place and from season to season. After the value of resistivity
+                                    is obtained then the earthing can be designed based on the resistivity value. And
+                                    before signing off the completion of the work, the resistance of the installed
+                                    system should be measured and recorded in the completion report given to the owner.
+                                </li>
+                                <li>Electrode-to-earth resistance must be tested every 11 months. The reason is that the
+                                    frequency and intensity of rains depend on the month. Testing every 11 months
+                                    ensures that the testing in the year following is in the earlier month. Thus 12 test
+                                    visits would give the resistance value in the various months. A low value is
+                                    attended to by either installing expanded earthing or increasing moisture of earth
+                                    below the bottom tip of the electrode to a depth of one-half the length of the
+                                    electrode. Doing both corrections would be needed in dry or loose soils. An example
+                                    of a loose soil is sandy soil. An example of a dry soil is soil of only a few feet
+                                    in depth sitting on rock.</li>
                             </ul>
-                            <p>Rodhini Safety Pvt. Ltd. was founded partly to solve this problem of high electrical resistance of buildings in India. The company specializes in low-resistance earthing that lasts over 25 years and which is then tested and revised.</p>
+                            <p>Rodhini Safety Pvt. Ltd. was founded partly to solve this problem of high electrical
+                                resistance of buildings in India. The company specializes in low-resistance earthing
+                                that lasts over 25 years and which is then tested and revised.</p>
                         </div>
                     </div>
                     <div class="con_btn">
