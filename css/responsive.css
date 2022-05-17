@@ -1,0 +1,239 @@
+@media (min-width: 1400px) {
+    .main_menu ul li a {
+        padding: 10px 40.47px !important;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* =============================================
+                    Home page start
+    ==============================================*/
+    .main_menu ul li a {
+        padding: 10px 17.97px !important;
+    }
+
+    /* =============================================
+                    Home page start
+    ==============================================*/
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* =============================================
+                    Home page start
+    ==============================================*/
+    .main_menu ul li a {
+        font-size: 12px;
+        padding: 10px 7px !important;
+    }
+
+    .logo_right img {
+        width: 195px;
+    }
+
+    .logo a img {
+        width: 180px;
+    }
+
+    #logo .tag_line {
+        font-size: 45px;
+        padding-left: 32px;
+        margin-top: -18px;
+    }
+
+    /* =============================================
+                    Home page start
+    ==============================================*/
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* =============================================
+                    Menu part start
+    ==============================================*/
+    .main_menu button svg {
+        width: 20px;
+        fill: #F36311;
+    }
+
+    .main_menu button {
+        margin: 0 auto;
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        background: #fff;
+        padding: 0;
+    }
+
+    .main_menu button:focus {
+        box-shadow: 0 0 0 0 transparent;
+    }
+
+    .logo a img {
+        width: 180px;
+    }
+
+    #logo a {
+        margin-left: 0px;
+    }
+
+    #logo .tag_line {
+        font-size: 45px;
+        padding-left: 32px;
+        margin-top: -18px;
+    }
+
+    .logo_right img {
+        width: 195px;
+    }
+
+    .main_menu #navbarSupportedContent {
+        position: absolute;
+        left: 0;
+        top: 55px;
+        background: #fff;
+        width: 100%;
+    }
+
+    .main_menu ul li a {
+        color: #494c4f;
+    }
+
+    .main_menu ul li a:hover,
+    .main_menu ul li a.active {
+        background: #494c4f;
+        color: #fff;
+    }
+
+    .main_menu ul li a:after {
+        display: none;
+    }
+
+    #logo .tag_line {
+        padding-left: 18px;
+    }
+
+    #breadcrumb {
+        padding: 15px 0;
+    }
+
+    /* =============================================
+                    Menu part end
+    ==============================================*/
+
+
+    #home_details .aniversary_text h2,
+    #home_details .service_area h2 {
+        font-size: 28px;
+    }
+
+    #home_details .take_change h2 {
+        font-size: 37px;
+    }
+
+    .social_icon {
+        display: none;
+    }
+
+    /* ===================================================
+                        Home page end 
+    ====================================================*/
+}
+
+@media (max-width: 575.98px) {
+
+    /* =============================================
+                    Menu part start
+    ==============================================*/
+    .main_menu button svg {
+        width: 20px;
+        fill: #F36311;
+    }
+
+    .main_menu button {
+        margin: 0 auto;
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        background: #fff;
+        padding: 0;
+    }
+
+    .main_menu button:focus {
+        box-shadow: 0 0 0 0 transparent;
+    }
+
+    .logo a img {
+        width: 100px;
+    }
+
+    #logo a {
+        margin-left: 0px;
+    }
+
+    #logo .tag_line {
+        font-size: 28px;
+        padding-left: 32px;
+        margin-top: -18px;
+    }
+
+    .logo_right img {
+        width: 148px;
+    }
+
+    .main_menu #navbarSupportedContent {
+        position: absolute;
+        left: 0;
+        top: 55px;
+        background: #fff;
+        width: 100%;
+    }
+
+    .main_menu ul li a {
+        color: #494c4f;
+    }
+
+    .main_menu ul li a:hover,
+    .main_menu ul li a.active {
+        background: #494c4f;
+        color: #fff;
+    }
+
+    .main_menu ul li a:after {
+        display: none;
+    }
+
+    #logo .tag_line {
+        padding-left: 6px;
+    }
+
+    #breadcrumb {
+        padding: 15px 0;
+    }
+
+    /* =============================================
+                    Menu part end
+    ==============================================*/
+
+
+    #home_details .aniversary_text h2,
+    #home_details .service_area h2 {
+        font-size: 28px;
+    }
+
+    #home_details .take_change h2 {
+        font-size: 37px;
+    }
+
+    .social_icon {
+        display: none;
+    }
+
+    /* ===================================================
+                        Home page end 
+    ====================================================*/
+}
