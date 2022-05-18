@@ -173,10 +173,34 @@
                     Light Project page end 
     ====================================================*/
 
-    .project_btm_text img{
+    .project_btm_text img {
         width: 100%;
         max-width: 100%;
     }
+
+    /* ===================================================
+                    Contact page start 
+    ====================================================*/
+    #contact .contact_text h1 {
+        line-height: 1.8;
+    }
+
+    #contact .contact_text a {
+        margin: 30px 0 60px;
+    }
+
+    .location {
+        padding-top: 40px;
+        padding-bottom: 50px !important;
+    }
+
+    #contact {
+        padding-bottom: 60px;
+    }
+
+    /* ===================================================
+                    Contact page end 
+    ====================================================*/
 }
 
 @media (max-width: 575.98px) {
@@ -289,8 +313,35 @@
                     Light Project page end 
     ====================================================*/
 
-    .project_btm_text img{
+    .project_btm_text img {
         width: 100%;
         max-width: 100%;
     }
+
+    /* ===================================================
+                    Contact page start 
+    ====================================================*/
+    #contact .contact_text h1 {
+        font-size: 41px;
+        line-height: 1.8;
+    }
+
+    #contact .contact_text a {
+        margin: 30px 0 60px;
+    }
+
+    .location {
+        padding-top: 40px;
+        padding-bottom: 50px !important;
+    }
+
+    #contact {
+        padding-bottom: 60px;
+    }
+
+    /* ===================================================
+                    Contact page end 
+    ====================================================*/
+
+
 }
