@@ -969,6 +969,10 @@ li {
   margin-top: 15px;
 }
 
+#our_promise .con_btn a:hover {
+  background: #71D7F7;
+}
+
 /* ==================================================================
                         Promise part end
 ===================================================================*/
@@ -1078,6 +1082,10 @@ li {
   transition: all linear .3s;
   margin-bottom: 15px;
   margin-top: 15px;
+}
+
+#franchises .franchises_text .con_btn a:hover {
+  background: #71D7F7;
 }
 
 /* ==================================================================

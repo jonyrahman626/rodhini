@@ -7,12 +7,14 @@
 ===================================================================*/
 #franchises {
     .franchises_text {
-        p{
+        p {
             @include fs(#000, 20px, 400, $ff2);
             padding: 10px 0 20px;
         }
+
         .con_btn {
             text-align: center;
+
             a {
                 @include fs(#fff, 25px, 500, $ff1);
                 padding: 5px 20px;
@@ -22,6 +24,10 @@
                 transition: all linear .3s;
                 margin-bottom: 15px;
                 margin-top: 15px;
+
+                &:hover {
+                    background: $hover2;
+                }
             }
         }
     }
